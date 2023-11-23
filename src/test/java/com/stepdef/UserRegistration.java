@@ -15,7 +15,7 @@ public class UserRegistration {
 	}
 	@And ("I navigate to account navigation page")
 	public void account_navigation_page() {
-		System.out.println("navigating towards application home page");
+		System.out.println("navigating towards application home page for given url");
 	}
 	@When ("I provide all the below mentioned vlid credentials")
 	public void all_credentials(DataTable table) {
