@@ -15,7 +15,7 @@ import io.cucumber.testng.CucumberOptions;
 		//generating failesscenarios.txt from above command and put in target folder..
 		//tags="@CarTrading or @ComputerTrading"
 		//tags="@ComputerTest"
-		//monochrome=true
+		//monochrome=false
 		)
 public class MyRunner extends AbstractTestNGCucumberTests {
 

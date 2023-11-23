@@ -1,5 +1,7 @@
 package com.automation.framework;
 
+import java.time.Duration;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -26,6 +28,7 @@ public class Browser {
 			WebDriverManager.chromedriver().setup();
 			Base.driver = new ChromeDriver();
 			log.info("Chrome Browser is Started" + Base.driver.hashCode());
+			Base.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			return Base.driver;
 
 		case "ie":
