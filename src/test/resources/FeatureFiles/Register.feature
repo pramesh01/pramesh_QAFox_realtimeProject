@@ -1,3 +1,4 @@
+@feature1
 Feature: validating for the registration scenarios
 
 @tag_sc1
