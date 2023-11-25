@@ -22,5 +22,17 @@ public class HeaderSection {
 	@FindBy(linkText="Login")
     public static WebElement loginLink;
 	
+	@FindBy(name="search")
+    public static WebElement searchtextfield;
+	
+	@FindBy(xpath="//*[@id='search']/span/button")
+    public static WebElement searchiconbutton;
+	
+	@FindBy(xpath="//*[@id='top-links']/ul/li[4]/a/span")
+    public static WebElement shopingcartLink;
+	
+	
+	//*[@id="top-links"]/ul/li[4]/a/span
+	
 	
 }
