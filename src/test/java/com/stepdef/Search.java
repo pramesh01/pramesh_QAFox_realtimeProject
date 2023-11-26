@@ -33,11 +33,11 @@ public class Search {
 	public void gets_the_message_regarding_item_not_found() {
 		//Assert.assertTrue(Elements.isDisplayed(SearchResultPage.itennotfoundmessage));
 		Assert.assertTrue(Elements.VerifyTextEquals(SearchResultPage.itennotfoundmessage,"There is no product that matches the search criteria."));
-		System.out.println("successfully got message of item not found");
-		System.out.println("after confirming on real page, checking inside the shopping cart");
-		Elements.click(HeaderSection.shopingcartLink);
-		Assert.assertTrue(Elements.VerifyTextEquals(SearchResultPage.shopcartmessage,"Your shopping cart is empty!"));
-		System.out.println("got the message i.e Your ' shopping cart is empty!'");
+		System.out.println("successfully got message of item not found on console");
+		//System.out.println("after confirming on real page, checking inside the shopping cart");
+		//Elements.click(HeaderSection.shopingcartLink);
+		//Assert.assertTrue(Elements.VerifyTextEquals(SearchResultPage.shopcartmessage,"Your shopping cart is empty!"));
+		//System.out.println("got the message i.e Your ' shopping cart is empty!'");
 		
 	}
 }

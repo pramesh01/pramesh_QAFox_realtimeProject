@@ -27,4 +27,16 @@ Properties properties=null;
 	public int getPageLoadTimeOut() {
 		return Integer.parseInt(properties.getProperty("PageLoadTimeOut"));
 	}
+	
+	public String getUsername() {
+		return properties.getProperty("user_email");
+	}
+	
+	public String getPassword() {
+		return properties.getProperty("user_password");
+	}
+	@Override
+	public String getproductname() {
+		return properties.getProperty("product_name");
+	}
 }

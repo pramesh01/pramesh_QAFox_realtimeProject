@@ -20,4 +20,7 @@ public class SearchResultPage {
     @FindBy(xpath="//*[@id='content']/p")
     public static WebElement shopcartmessage;
     
+    @FindBy(xpath="//*[@class='button-group']/button/span")
+    public static WebElement addtocartLink;
+    
     }

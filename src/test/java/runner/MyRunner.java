@@ -6,13 +6,14 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features={"src/test/resources/FeatureFiles/Register.feature",
 				"src/test/resources/FeatureFiles/Login.feature",
-				"src/test/resources/FeatureFiles/Search.feature"},
+				"src/test/resources/FeatureFiles/Search.feature",
+				"src/test/resources/FeatureFiles/Orders.feature"},
 		glue="com.stepdef",
 		plugin= {"html:target/cucumber-reports.html"},
 		//tags="@tag_sc1 or @tag_sc2 or @tag_sc3 or @tag_sc4"
 		//tags="@tag_login1 or @tag_login2 or @tag_login3"
-		 tags="@tag_search2"
-		 //tags="@feature1 or @feature2 or @feature3"
+		 //tags="@tag_order1"
+		 tags="@feature1 or @feature2 or @feature3 or @feature4"
 		//features="@rerun/failed_scenarios.txt",    //rerunning only failed test cases in generated text files.
 		//glue="com.stepdef"
 		//glue= {"search","select"},

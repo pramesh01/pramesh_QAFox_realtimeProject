@@ -28,11 +28,11 @@ public class HeaderSection {
 	@FindBy(xpath="//*[@id='search']/span/button")
     public static WebElement searchiconbutton;
 	
-	@FindBy(xpath="//*[@id='top-links']/ul/li[4]/a/span")
+	@FindBy(linkText="Shopping Cart")
     public static WebElement shopingcartLink;
 	
 	
-	//*[@id="top-links"]/ul/li[4]/a/span
+	
 	
 	
 }
