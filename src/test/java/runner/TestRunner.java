@@ -25,6 +25,6 @@ import io.cucumber.testng.CucumberOptions;
 		//tags="@tag_sc1"
 		//monochrome=false
 		)
-public class MyRunner extends AbstractTestNGCucumberTests {
+public class TestRunner extends AbstractTestNGCucumberTests {
 
 }
